@@ -127,7 +127,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _three = __webpack_require__(2);
 
-var _three2 = _interopRequireDefault(_three);
+var three = _interopRequireWildcard(_three);
 
 var _Plugin = __webpack_require__(0);
 
@@ -139,8 +139,10 @@ var _Plugin4 = _interopRequireDefault(_Plugin3);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-_three2.default.Plugin1 = _Plugin2.default;
-_three2.default.Plugin2 = _Plugin4.default;
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+three.Plugin1 = _Plugin2.default;
+three.Plugin2 = _Plugin4.default;
 
 exports.default = {
     Plugin1: _Plugin2.default, Plugin2: _Plugin4.default

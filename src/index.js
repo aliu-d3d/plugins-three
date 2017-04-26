@@ -1,4 +1,4 @@
-import three from 'three';
+import * as three from 'three';
 
 import Plugin1 from './Plugin1';
 import Plugin2 from './Plugin2';

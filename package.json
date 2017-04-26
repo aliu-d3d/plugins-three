@@ -1,14 +1,18 @@
 {
   "name": "plugins-three",
   "version": "1.0.0",
-  "description": "",
+  "description": "test plugin integration",
+  "repository": { 
+    "type" : "git",
+    "url" : "https://github.com/aliu-d3d/plugins-three.git"
+  },
   "main": "dist/plugins-three.js",
   "scripts": {
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "AGPL",
+  "license": "AGPL-3.0",
   "devDependencies": {
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",

@@ -1,0 +1,19 @@
+{
+  "name": "plugins-three",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/plugins-three.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "AGPL",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "three": "^0.85.2",
+    "webpack": "^2.4.1"
+  }
+}
